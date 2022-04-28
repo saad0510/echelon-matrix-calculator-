@@ -8,9 +8,6 @@ Last update: 26 September, 2021
 #include <fstream>
 #include <exception>
 #include "includes/Matrix.h"
-#include "lib/Matrix.cpp"
-#include "lib/Fraction.cpp"
-#include "lib/Row.cpp"
 
 using namespace std;
 

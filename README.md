@@ -37,7 +37,7 @@ and write:
 Generate object files
 
 ```bash
-  g++ -o lib/*
+  g++ -c lib/*
 ```
 
 Compile && run the program
