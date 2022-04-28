@@ -29,17 +29,24 @@ Go to the project directory
   cd echelon-matrix-calculator
 ```
 
-Compile && run the program
-
-```bash
-  g++ main.cpp -o main.out
-  ./main.out
-```
-
 Open the `input.txt` file with your favorite editor 
 and write:
     - the order of the matrix in the first line.
     - each row in a separate new line
+    
+Generate object files
+
+```bash
+  g++ -o lib/*
+```
+
+Compile && run the program
+
+```bash
+  g++ main.cpp *.o -o main.out
+  ./main.out
+```
+
 
 
 ## Screenshots
